@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Montserrat:wght@400;500;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  max-width: 100%;
+}
+
+.main {
+  background-image: url(image/Backgroung.jpg);
+  background-position: center center;
+  background-size: max(1500px, 100vw);
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+  height: 80vh;
+  position: relative;
+}
+.main .box {
+  height: 80vh;
+  width: 100%;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+nav {
+  max-width: 70vw;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 65px;
+}
+nav img {
+  color: red;
+  width: 144px;
+  position: relative;
+  z-index: 10;
+}
+nav button {
+  position: relative;
+  z-index: 10;
+}
+.head {
+  font-family: "Martel Sans", sans-serif;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  padding: 23px;
+  gap: 15px;
+}
+.head > :first-child {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+}
+.head > :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+.head > :nth-child(3) {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.sepration {
+  background-color: rgb(43, 41, 41);
+  height: 8px;
+  position: relative;
+  z-index: 20;
+}
+.red_btn {
+  background-color: red;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn {
+  background-color: rgb(22, 22, 22, 0.7);
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.head_btn {
+  display: flex;
+  padding: 0px 22px;
+  gap: 6px;
+}
+.main input {
+  padding: 10px 144px 10px 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: rgb(22, 22, 22, 0.7);
+  border-color: 2px solid rgb(22, 22, 22, 0.7);
+}
+.red_btn_2 {
+  background-color: rgb(218, 19, 19);
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  border-radius: 5px;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  padding: 66px;
+  gap: 5px;
+}
+.img_1 {
+  position: relative;
+}
+.img_1 img {
+  width: 35vw;
+  position: relative;
+  z-index: 10;
+}
+.img_1 video {
+  position: absolute;
+  top: 59px;
+  right: 0;
+  width: 30vw;
+}
+.first > :first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.first div > :nth-child(1) {
+  font-size: 42px;
+  font-weight: 800;
+}
+
+.first div > :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+}
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  padding: 66px;
+  gap: 5px;
+}
+.second > div :nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.second div > :nth-child(1) {
+  font-size: 44px;
+  font-weight: 800;
+}
+
+.second div > :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.img_2 {
+  position: relative;
+}
+.img_2 img {
+  width: 35vw;
+  position: relative;
+  z-index: 10;
+}
+.img_2 video {
+  position: absolute;
+  top: 21px;
+  right: 90px;
+  width: 21vw;
+}
+.ques {
+  background: black;
+  color: white;
+  padding: 44px;
+  justify-content: center;
+  font-size: 24px;
+}
+.ques h2 {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  justify-content: center;
+}
+.ques .block {
+  width: 70vw;
+  display: flex;
+  padding: 24px;
+  font-size: 24px;
+  background-color: rgb(58, 57, 57);
+  justify-content: space-between;
+  color: white;
+  margin: 10px auto;
+  cursor: pointer;
+}
+.ques .block:hover {
+  background-color: rgb(105, 105, 105);
+}
+.ques .block svg {
+  filter: invert(1);
+}
+.ques .lst_block {
+  max-width: 70vw;
+  font-size: 20px;
+  padding: 24px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.ques .lst_block input {
+  padding: 10px 144px 10px 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: rgb(22, 22, 22, 0.7);
+  border-color: 2px solid rgb(22, 22, 22, 0.7);
+}
+
+footer .text {
+  color: white;
+  margin: 5px 15px;
+  padding: 40px 10px 0 50px;
+}
+footer .foot {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+  padding: 0 25px;
+}
+footer .foot .foot_items {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: auto;
+}
+footer .foot .foot_items a {
+  color: rgb(218, 218, 218);
+  padding: 10px;
+}
+
+/* For smaller screens */
+@media only screen and (max-width: 768px) {
+  .main {
+    height: auto; /* Adjust the height */
+  }
+
+  /* Adjust font sizes, paddings, margins, etc. as needed */
+}
+
+/* For even smaller screens, like smartphones */
+@media only screen and (max-width: 480px) {
+  .main {
+    background-size: cover; /* Adjust the background image size */
+  }
+
+  /* Adjust other styles as needed */
+}
+
+
